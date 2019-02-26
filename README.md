@@ -119,6 +119,10 @@ In each stack of patches, I have included two sets of two commits:
   export KBUILD_COMPILER_STRING=$(<path_to_clang_folder/bin/clang --version | head -n 1 | perl -pe 's/\(http.*?\)//gs' | sed -e 's/  */ /g' -e 's/[[:space:]]*$//')
   ```
 
+**NOTE (for self):**
+https://github.com/nathanchance/marlin/commit/b7802e3f174763f35ffaf771c0be6073bb95f9c9#diff-b67911656ef5d18c4ae36cb6741b7965
+https://github.com/ryan-andri/android_kernel_santoni/commit/05bac296e1b6161571060d64b0d1e96156798242#diff-b67911656ef5d18c4ae36cb6741b7965
+
 
 ## Getting help
 
