@@ -120,8 +120,10 @@ In each stack of patches, I have included two sets of two commits:
   ```
 
 **NOTE (for self):**
+* [Makefile: Use O3 for Clang](https://github.com/nathanchance/marlin/commit/08bf7dede9e14d5f46273d4fe03be543be5d9f01#diff-b67911656ef5d18c4ae36cb6741b7965).
+* [turn off -Wattribute-alias](https://github.com/nathanchance/marlin/commit/430c3fdb11ec1f0af1eca28460c922b9c1eb2ac5#diff-b67911656ef5d18c4ae36cb6741b7965).
 * [BACKPORT: kbuild: allow to use GCC toolchain not in Clang search path](https://github.com/nathanchance/marlin/commit/b7802e3f174763f35ffaf771c0be6073bb95f9c9#diff-b67911656ef5d18c4ae36cb6741b7965).
-* [Makefile: fix segfaults when compiled with Clang](https://github.com/ryan-andri/android_kernel_santoni/commit/05bac296e1b6161571060d64b0d1e96156798242#diff-b67911656ef5d18c4ae36cb6741b7965).
+* [Makefile: fix segfaults when compiled with Clang](https://github.com/Android-ID-Project/android_linux_stable_xiaomi_santoni/commit/734438154e948f75e72f7120117db794d481993d#diff-b67911656ef5d18c4ae36cb6741b7965).
 
 
 ## Getting help
